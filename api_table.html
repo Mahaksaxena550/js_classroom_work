@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 100%;
+            text-align: center;
+
+
+        }
+
+        table, th, tr, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        tr:nth-child(odd) {
+            background-color: peru;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <table id="yug">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>EMAIL</th>
+                <th>BODY</th>
+            </tr>
+        </thead>
+
+        <tbody id="data_show">
+
+        </tbody>
+    </table>
+
+
+    <script src="api_table.js"></script>
+</body>
+</html>
