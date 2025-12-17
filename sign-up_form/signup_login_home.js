@@ -12,7 +12,11 @@ let Erremail = document.querySelector("#erremail")
 let Errpass = document.querySelector("#errpass")
 let Errcpass = document.querySelector("#errcpass")
 
-
+Errname.innerHTML=''
+Errnum.innerHTML=''
+Erremail.innerHTML=''
+Errpass.innerHTML=''
+Errcpass.innerHTML=''
 
 if(Name==""){
 
