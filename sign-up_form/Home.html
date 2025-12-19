@@ -5,6 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vintage Car Garage</title>
+    
+      <style>
+        table {
+            width: 100%;
+            text-align: center;
+
+
+        }
+
+        table, th, tr, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        tr:nth-child(odd) {
+            background-color: peru;
+        }
+
+    </style>
 
     <link rel="stylesheet" href="signup_login_home.css">
     	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -53,6 +73,22 @@
 
 
              </section>
+
+
+                 <table id="yug">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>EMAIL</th>
+                <th>BODY</th>
+            </tr>
+        </thead>
+
+        <tbody id="data_show">
+
+        </tbody>
+    </table>
  
     </main>
 
